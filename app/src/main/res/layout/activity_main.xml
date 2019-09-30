@@ -18,7 +18,7 @@
         android:layout_alignParentBottom="true"
         android:id="@+id/navigation"
         android:layout_width="match_parent"
-        app:itemBackground="@color/black"
+        app:itemBackground="@color/colorPrimary"
         android:layout_height="wrap_content"
         android:theme="@style/BottomNavigationTheme"
         app:menu="@menu/bottom_navigation" />
