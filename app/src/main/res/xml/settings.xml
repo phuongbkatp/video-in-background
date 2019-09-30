@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General">
+        <ListPreference
+            android:defaultValue="global"
+            android:dialogTitle="Select Region"
+            android:entries="@array/pref_region_entries"
+            android:entryValues="@array/pref_region_values"
+            android:key="pref_select_region"
+            android:summary="This will change your trending, viral songs as per your region choice."
+            android:title="Select Region" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Updates">
+        <CheckBoxPreference
+            android:key="pref_update_check"
+            android:defaultValue="true"
+            android:title="Auto Check Updates"
+            android:summary="Check updates whenever the app is launched."/>
+        <Preference
+            android:key="pref_update"
+            android:summary="Check if there is a new version of app."
+            android:title="Check For Updates" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Backup &#38; Restore">
+        <Preference
+            android:key="pref_backup"
+            android:title="Backup Data"
+            android:summary="This will backup your history, playlist and all important sessions."/>
+        <Preference
+            android:key="pref_restore"
+            android:title="Restore Data"
+            android:summary="Restore your saved session."/>
+        <Preference
+            android:key="pref_delete"
+            android:title="Clear backups"
+            android:summary="Clear all of your saved sessions."/>
+    </PreferenceCategory>
+</PreferenceScreen>
