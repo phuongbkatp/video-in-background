@@ -54,7 +54,7 @@
             <TextView
                 android:layout_alignParentStart="true"
                 android:textSize="17sp"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/colorAccent"
                 android:fontFamily="@font/dmsans_font"
                 android:textStyle="bold"
                 android:layout_marginStart="15dp"
@@ -165,14 +165,14 @@
                         android:textSize="18sp"
                         android:fontFamily="@font/dmsans_font"
                         android:text="Discover more"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
                     <TextView
                         android:textSize="10sp"
                         android:fontFamily="@font/dmsans_font"
                         android:text="Top, Viral songs on Spotify"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
                 </LinearLayout>
@@ -188,7 +188,7 @@
             android:layout_marginTop="20dp"
             android:layout_alignParentStart="true"
             android:textSize="17sp"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/white"
             android:fontFamily="@font/dmsans_font"
             android:textStyle="bold"
             android:layout_marginStart="15dp"
