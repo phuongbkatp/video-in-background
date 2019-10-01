@@ -165,7 +165,7 @@ public class MainActivity extends AppCompatActivity implements HistoryBottomShee
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
         if (YTutils.isInternetAvailable())
-            loadFragment(HistoryFrag);
+            loadFragment(SearchFrag);
         else {
             loadFragment(NCFrag);
         }

@@ -6,8 +6,9 @@
     android:clickable="true"
     android:foreground="@drawable/history_background"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="214dp"
+    android:layout_width="200dp"
     android:layout_height="120dp"
+    app:cardCornerRadius="5dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 <RelativeLayout
     android:orientation="vertical"

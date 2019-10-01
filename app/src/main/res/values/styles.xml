@@ -17,7 +17,7 @@
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat"/>
 
     <style name="BottomNavigationTheme" parent="Theme.AppCompat.Light">
-        <item name="android:textColorSecondary">@color/light_white</item>
+        <item name="android:textColorSecondary">@color/light_red</item>
     </style>
 
  <!--   <style name="SliderActivityTheme.A" parent="Theme.AppCompat.NoActionBar">
