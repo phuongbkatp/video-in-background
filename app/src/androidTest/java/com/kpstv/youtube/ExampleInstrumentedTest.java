@@ -1,4 +1,4 @@
-package com.kpstv.youtube;
+package com.techmaxx.youtubebackground;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.kpstv.youtube", appContext.getPackageName());
+        assertEquals("com.techmaxx.youtubebackground", appContext.getPackageName());
     }
 }

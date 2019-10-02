@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.kpstv.youtube">
+    package="com.techmaxx.youtubebackground">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -25,16 +25,16 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-1763645001743174~5602018181" />
+            android:value="ca-app-pub-3940256099942544~3347511713" />
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.techmaxx.youtubebackground.MainActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar1">
         </activity>
         <activity
-            android:name=".RingdroidEditActivity"
+            android:name="com.techmaxx.youtubebackground.RingdroidEditActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:exported="true"
             android:hardwareAccelerated="true"
@@ -47,7 +47,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".PlayerActivity"
+            android:name="com.techmaxx.youtubebackground.PlayerActivity"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar2">
@@ -85,14 +85,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SearchActivity"
+            android:name="com.techmaxx.youtubebackground.SearchActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".CPlaylistActivity" />
-        <activity android:name=".SettingsActivity" />
+        <activity android:name="com.techmaxx.youtubebackground.CPlaylistActivity" />
+        <activity android:name="com.techmaxx.youtubebackground.SettingsActivity" />
         <activity
-            android:name=".SplashActivity"
+            android:name="com.techmaxx.youtubebackground.SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@style/SplashTheme">
             <intent-filter>
@@ -102,10 +102,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".IntroActivity"
+            android:name="com.techmaxx.youtubebackground.IntroActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar1" />
-        <activity android:name=".ErrorActivity"></activity>
+        <activity android:name="com.techmaxx.youtubebackground.ErrorActivity"></activity>
     </application>
 
 </manifest>

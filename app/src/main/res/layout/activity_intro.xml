@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:background="@color/welcomeScreen"
     android:layout_height="match_parent"
-    tools:context=".IntroActivity">
+    tools:context="com.techmaxx.youtubebackground.IntroActivity">
 
 
         <ImageView

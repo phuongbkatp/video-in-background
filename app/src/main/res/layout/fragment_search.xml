@@ -6,7 +6,7 @@
     android:id="@+id/nestedScrollView"
     android:background="@color/background"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragments.SearchFragment"
+    tools:context="com.techmaxx.youtubebackground.fragments.SearchFragment"
     android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,6 +20,8 @@
             android:foreground="@drawable/history_background"
             app:cardUseCompatPadding="true"
             android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <LinearLayout
@@ -31,7 +33,7 @@
                 <ImageView
                     android:layout_marginStart="10dp"
                     android:layout_width="wrap_content"
-                    android:tint="@color/white"
+                    android:tint="@color/darkest_white"
                     android:src="@drawable/ic_search"
                     android:layout_height="match_parent" />
                 <TextView
@@ -41,7 +43,7 @@
                     android:layout_width="wrap_content"
                     android:text="Search"
                     android:fontFamily="@font/dmsans_font"
-                    android:textColor="@color/white"
+                    android:textColor="@color/darkest_white"
                     android:layout_height="match_parent" />
             </LinearLayout>
         </android.support.v7.widget.CardView>
@@ -54,7 +56,7 @@
             <TextView
                 android:layout_alignParentStart="true"
                 android:textSize="17sp"
-                android:textColor="@color/colorAccent"
+                android:textColor="@color/white"
                 android:fontFamily="@font/dmsans_font"
                 android:textStyle="bold"
                 android:layout_marginStart="15dp"
@@ -100,7 +102,6 @@
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:visibility="gone"
             android:background="@color/colorScreen"/>
 
         <include layout="@layout/search_tip"/>
@@ -112,6 +113,8 @@
             android:clickable="true"
             android:focusable="true"
             android:foreground="@drawable/discover_shape_click"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
             app:cardUseCompatPadding="true"
             android:layout_width="match_parent"
             android:layout_height="170dp">
@@ -162,14 +165,14 @@
                     android:layout_height="wrap_content">
                     <TextView
                         android:textStyle="bold"
-                        android:textSize="18sp"
+                        android:textSize="22sp"
                         android:fontFamily="@font/dmsans_font"
                         android:text="Discover more"
                         android:textColor="@color/black"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
                     <TextView
-                        android:textSize="10sp"
+                        android:textSize="14sp"
                         android:fontFamily="@font/dmsans_font"
                         android:text="Top, Viral songs on Spotify"
                         android:textColor="@color/black"
@@ -182,7 +185,6 @@
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:visibility="gone"
             android:background="@color/colorScreen"/>
         <TextView
             android:layout_marginTop="20dp"
@@ -193,7 +195,6 @@
             android:textStyle="bold"
             android:layout_marginStart="15dp"
             android:layout_width="wrap_content"
-            android:visibility="gone"
             android:text="About"
             android:layout_height="wrap_content" />
 
@@ -204,7 +205,6 @@
             android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
             app:cardUseCompatPadding="true"
-            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -224,6 +224,7 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="20dp"
                     android:gravity="center"
+                    android:visibility="gone"
                     android:orientation="horizontal">
 
                     <ImageView
@@ -347,7 +348,6 @@
             android:paddingTop="5dp"
             android:paddingBottom="5dp"
             android:background="@drawable/settings_shape"
-            android:visibility="gone"
             android:paddingStart="20dp"
             android:paddingEnd="20dp"
             android:layout_width="wrap_content"

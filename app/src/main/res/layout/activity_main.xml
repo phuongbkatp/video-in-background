@@ -6,7 +6,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.techmaxx.youtubebackground.MainActivity">
 
     <FrameLayout
         android:id="@+id/fragment_container"
@@ -18,7 +18,7 @@
         android:layout_alignParentBottom="true"
         android:id="@+id/navigation"
         android:layout_width="match_parent"
-        app:itemBackground="@color/colorPrimaryDark"
+        app:itemBackground="@color/black"
         android:layout_height="wrap_content"
         android:theme="@style/BottomNavigationTheme"
         app:menu="@menu/bottom_navigation" />
@@ -38,7 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             ads:adSize="BANNER"
-            ads:adUnitId="ca-app-pub-1763645001743174/9349691503">
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
         </com.google.android.gms.ads.AdView>
     </LinearLayout>
 

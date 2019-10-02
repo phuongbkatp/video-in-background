@@ -1,4 +1,4 @@
-package com.kpstv.youtube;
+package com.techmaxx.youtubebackground;
 
 import org.junit.Test;
 

@@ -18,7 +18,7 @@
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"
         android:orientation="vertical"
-        tools:context=".CPlaylistActivity">
+        tools:context="com.techmaxx.youtubebackground.CPlaylistActivity">
         <android.support.v4.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
